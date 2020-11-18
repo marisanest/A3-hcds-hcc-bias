@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hcds-winter-2020"
+name = "A3-hcds-hcc-bias"
 version = "0.1.0"
 description = ""
 authors = ["aschlegel <alexa.schlegel@fu-berlin.de>", "marisanest <marisa.f.nest@fu-berlin.de>"]
@@ -16,7 +16,6 @@ altair = "^4.1.0"
 bs4 = "^0.0.1"
 xlrd = "^1.2.0"
 plotly = "^4.12.0"
-kaleido = "^0.0.3"
 
 [tool.poetry.dev-dependencies]
 
