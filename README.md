@@ -9,20 +9,21 @@ The goal of this project is to explore the concept of bias through data on Wikip
 
 As data source one API and two existing datasets are used.
 
-1. The **ORES API** ([documentation][1], [endpoint][2])
+### 1. The ORES API ([documentation][1], [endpoint][2])
 
-> The ORES API is a service that provides information about the quality of revisions of Wikipedia articles.
+The ORES API is a service that provides information about the quality of revisions of Wikipedia articles.
 
-2. A dataset of **Wikipedia articles** ([documentation][3], [download][4])
+### 2. A dataset of **Wikipedia articles** ([documentation][3], [download][4])
 
-> This dataset contains data on most English-language Wikipedia articles within the category "Category:Politicians by nationality". It was published by by [Os Keyes][7] and licensed under the [CC-BY 4.0][8].
+This dataset contains data on most English-language Wikipedia articles within the category "Category:Politicians by nationality". It was published by by [Os Keyes][7] and licensed under the [CC-BY 4.0][8].
 
-3. A dataset of **country populations** ([documentation][5], [download][6]). 
+### 3. A dataset of **country populations** ([documentation][5], [download][6]). 
 
-> This dataset includes information about the population of countries at the end of the year 2019. Note: the downloaded file was edited before. The resulting file can be found here: `src/_data/export_2019.csv`.
+This dataset includes information about the population of countries at the end of the year 2019. Note: the downloaded file was edited before. The resulting file can be found here: `src/_data/export_2019.csv`.
+
+### Licensing
 
 For the ORES API and the country population dataset no licensing was found. So please make sure you are useing this data sources properly. All resulting datasets follow the same licensing policy as the Wikipedia articles dataset ([CC-BY 4.0][8]).
-
 
 ## Results
 
