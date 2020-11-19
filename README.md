@@ -24,51 +24,46 @@ For the ORES API and the country population dataset no licensing was found. So p
 
 ## Results
 
-As result, you can find six `CSV`-formatted data files in the folder `results`. The six files show: 
+As result, you can find six `CSV`-formatted data files in the folder `results`. 
+
+#### Content
 
 1. `country_coverage_data_top_10.csv`: The countries with the greatest coverage of politicians on Wikipedia compared to their population
-
-| name | description |
-|--------------|--------------|
-| country | Country name |
-| coverage | Coverage |
-
 2. `country_coverage_data_bottom_10.csv`: The countries with the least coverage of politicians on Wikipedia compared to their population
-
-| name | description |
-|--------------|--------------|
-| country | Country name |
-| coverage | Coverage |
-
 3. `country_relative_quality_data_top_10.csv`: The countries with the highest proportion of high quality articles about politicians
-
-| name | description |
-|--------------|--------------|
-| country | Country name |
-| relative_quality | Percentage of high quality articles of all articles |
-
 4. `country_relative_quality_data_bottom_10.csv`: The countries with the lowest proportion of high quality articles about politicians
-
-| name | description |
-|--------------|--------------|
-| country | Country name |
-| relative_quality | Percentage of high quality articles of all articles |
-
-5. `region_coverage_data.csv`: 
-
-The ranking of geographic regions by coverage of politicians.
-
-| name | description |
-|--------------|--------------|
-| region | Region name |
-| coverage | Coverage |
-
+5. `region_coverage_data.csv`: The ranking of geographic regions by coverage of politicians.
 6. `region_relative_quality_data.csv`: The ranking of geographic regions by proportion of high quality articles
 
-| name | description |
+#### Fromats
+
+Files 1 & 2
+
+| column name | column description |
+|--------------|--------------|
+| country | Country name |
+| coverage | Coverage |
+
+Files 3 & 4
+
+| column name | column description |
+|--------------|--------------|
+| country | Country name |
+| relative_quality | Percentage of high quality articles of all articles |
+
+File 5
+| column name | column description |
+|--------------|--------------|
+| region | Region name |
+| coverage | Coverage |
+
+File 6
+
+| column name | column description |
 |--------------|--------------|
 | region | Region name |
 | relative_quality | Percentage of high quality articles of all articles |
+
 
 ## Getting started
 
