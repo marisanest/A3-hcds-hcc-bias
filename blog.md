@@ -1,6 +1,6 @@
 # Title of your post
 > **Date:** 14.11.2020 - 19:54 PM *(Due: 01.12.2020 - 03:00 PM)*
-> **Name:** `alsc` Alexa S.
+> **Name:** `mane` Marisa N.
 > **Session:** [03 Exercise - Bias](https://github.com/FUB-HCC/hcds-winter-2020/wiki/03_exercise)   
 ----
 
@@ -20,7 +20,7 @@ _Using full sentences, list at least one question that this video raised in your
 
 ## A3 - Wikipedia, ORES, and BIAS
 
-**Repository:** `<add link to our repo here>`
+**Repository:** [A3-hcds-hcc-bias](https://github.com/marisanest/A3-hcds-hcc-bias)
 
 ### Reflections and implications
 
