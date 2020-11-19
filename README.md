@@ -54,7 +54,7 @@ As result, you can find six `CSV`-formatted data files in the folder `results`. 
 | country | Country name |
 | relative_quality | Percentage of high quality articles of all articles |
 
-#### 5. `region_coverage_data.csv`: 
+5. `region_coverage_data.csv`: 
 
 The ranking of geographic regions by coverage of politicians.
 
