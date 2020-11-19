@@ -1,11 +1,8 @@
 # A3-hcds-hcc-bias
 
-
 The goal of this project is to explore the concept of bias through data on Wikipedia articles. The project focuses on articles on political figures from a variety of countries. The analysis performed shows the coverage of politicians on Wikipedia and the quality of articles about politicians between countries.
 
-
-## Data source
-
+## Data sources
 
 As data source one API and two existing datasets are used.
 
@@ -19,7 +16,7 @@ This dataset contains data on most English-language Wikipedia articles within th
 
 #### 3. A dataset of **country populations** ([documentation][5], [download][6]). 
 
-This dataset includes information about the population of countries at the end of the year 2019. Note: the downloaded file was edited before. The resulting file can be found here: `src/_data/export_2019.csv`.
+This dataset includes information about the population of countries at the end of the year 2019. **Note**: the downloaded file was edited before. The resulting file can be found here: `src/_data/export_2019.csv`.
 
 #### Licensing
 
@@ -27,59 +24,55 @@ For the ORES API and the country population dataset no licensing was found. So p
 
 ## Results
 
-
 As result, you can find six `CSV`-formatted data files in the folder `results`. The six files show: 
 
-1. `country_coverage_data_top_10.csv`: The countries with the greatest coverage of politicians on Wikipedia compared to their population
+#### 1. `country_coverage_data_top_10.csv`: The countries with the greatest coverage of politicians on Wikipedia compared to their population
 
 | name | description |
 |--------------|--------------|
 | country | Country name |
 | coverage | Coverage |
 
-2. `country_coverage_data_bottom_10.csv`: The countries with the least coverage of politicians on Wikipedia compared to their population
+#### 2. `country_coverage_data_bottom_10.csv`: The countries with the least coverage of politicians on Wikipedia compared to their population
 
 | name | description |
 |--------------|--------------|
 | country | Country name |
 | coverage | Coverage |
 
-3. `country_relative_quality_data_top_10.csv`: The countries with the highest proportion of high quality articles about politicians
+#### 3. `country_relative_quality_data_top_10.csv`: The countries with the highest proportion of high quality articles about politicians
 
 | name | description |
 |--------------|--------------|
 | country | Country name |
 | relative_quality | Percentage of high quality articles of all articles |
 
-4. `country_relative_quality_data_bottom_10.csv`: The countries with the lowest proportion of high quality articles about politicians
+#### 4. `country_relative_quality_data_bottom_10.csv`: The countries with the lowest proportion of high quality articles about politicians
 
 | name | description |
 |--------------|--------------|
 | country | Country name |
 | relative_quality | Percentage of high quality articles of all articles |
 
-5. `region_coverage_data.csv`: The ranking of geographic regions by coverage of politicians
+#### 5. `region_coverage_data.csv`: The ranking of geographic regions by coverage of politicians
 
 | name | description |
 |--------------|--------------|
 | region | Region name |
 | coverage | Coverage |
 
-6. `region_relative_quality_data.csv`: The ranking of geographic regions by proportion of high quality articles
+#### 6. `region_relative_quality_data.csv`: The ranking of geographic regions by proportion of high quality articles
 
 | name | description |
 |--------------|--------------|
 | region | Region name |
 | relative_quality | Percentage of high quality articles of all articles |
-
 
 ## Getting started
-
 
 ### Prerequisites
 
 In order to use this project (espaccilay the jupyter note book), please ensure that you have a Python version greater or equal to `3.6.1`, a working installation of [Poetry][8] and [git][9] installed.
-
 
 ### Setup
 
@@ -100,7 +93,6 @@ In order to use this project (espaccilay the jupyter note book), please ensure t
 
     jupyter notebook
     
-
 ----
 
 [1]:https://ores.wikimedia.org/
