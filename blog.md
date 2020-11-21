@@ -8,13 +8,11 @@
 > Article: Algorithmic Profiling of Job Seekers in Austria: How Austerity Politics Are Made Effective
 
 ### 🗨️&nbsp; "How does the video inform your understanding of human centered data science?"  
-_In at least 2-3 full sentences, answer the question "How does the video inform your understanding of human centered data science?"._
 
 I have learned what enormous social implications a technical system can have and that these systems are permeated by man-made social values, norms and goals. It is very clear that data does not follow the principle of objectivity and neutrality, but can bring with it distortions that are a major challenge when it comes to implementing unbiased systems.
 
 
 ### ❓&nbsp; Questions
-_Using full sentences, list at least one question that this video raised in your mind, and say why it caused you to ask this question_
 
 1. Just as the system is biased, so are people. So how can we build systems that do not prepare and propose decisions that are biased, but rather point out to people their own bias? 
 
@@ -27,8 +25,6 @@ _Using full sentences, list at least one question that this video raised in your
 **Repository:** [A3-hcds-hcc-bias](https://github.com/marisanest/A3-hcds-hcc-bias)
 
 ### Reflections and implications
-
-Write about `350` words, reflecting on what you have learned, what you found, what (if anything) surprised 😲 you about your findings, and/or what theories you have about why any biases might exist (if you find they exist). Please also include any questions this assignment raised for you about bias, Wikipedia, or machine learning.
 
 I have learned that it is not only important that Wikipedia has a large, covering number of articles on a particular topic, but that it is also important that these articles have a certain quality. So I took articles from each quality level and looked at them. I noticed that articles with the quality level "Stub" contain only very rudimentary information (e.g. https://en.wikipedia.org/wiki/Rita_Sinon), whereas articles with the level "FA" contain very detailed and well structured data (e.g. https://en.wikipedia.org/wiki/Don_Getty).
 
@@ -43,21 +39,32 @@ I was particularly surprised by the region of North America, which is only in 4t
 
 ### Questions
 
-Pleas answer the following questions with at least 2-3 sentences each.
-
 1. What biases did you expect to find in the data (before you started working with it), and why?
-    1. Data bias to to the fact that english Wikipedia is edited by a specific user group which is biased by itself and thus generates biased data. As well as ORES can be biased already.
-    1.  Sampling Bias due to the choosen data sources (one part of the data is very english centric-data because it comes from english Wikipedia and thus can be biased).
+
+    1. Data bias due to the fact that english Wikipedia is edited by a specific user group which is biased by itself and thus generates biased data.
+    1. Sampling Bias due to the choosen data sources (one part of the data is very english centric-data because it comes from english Wikipedia and thus can be biased).
+    
 1. What (potential) sources of bias did you discover or introduce during data processing and analysis?
+    
     1. Processing Bias to to the aggregation of data to make it more understandable.
     1. Interaction Bias due to the specific choosen output (i.e. the resulting tables with only top/bottom 10 results).
+    
 1. What might your results suggest about (English) Wikipedia as a data source?
+
     The results indicate that there are large differences between the coverage and the quality of articles and that English-language articles are of better quality than those with a different geographical background.
+    
 1. What might your results suggest about the internet and global society in general?
+    
     The results indicate a very Western-oriented society and use of the Internet. Although this is a very bold conclusion ;)
+    
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
+    
     The data would be inappropriate, for example, if the aim is to build a system in which geographical location is used as a criterion to decide with what probability an article is or is not of high quality. 
+    
 1. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
-    Geeignet wären die Daten dafür, um ein System zu bauen, dass vorschläge an Wikipedia Nutzer macht, welche Artikel noch bearbeitet werden sollten oder in welchen Ländern oder Regionen potenziell noch Artikel zu Politikern fehlen. 
+
+    The data would be suitable for building a system that makes suggestions to Wikipedia users which articles should be edited or in which countries or regions articles on politicians are potentially missing. 
+    
 1. How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
+    
     Other data sources could be added, such as Wikipedia versions in other languages. 
